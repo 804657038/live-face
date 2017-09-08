@@ -2,13 +2,19 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>live cam 录像页面</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <video autoplay id="sourcevid" style="width:320;height:240px"></video>
+    <video autoplay id="sourcevid" style="width:375px;height:500px;"></video>
     <br>
     提示：最好用火狐测试，谷歌浏览器升级了安全策略，谷歌浏览器只能在https下才能利用html5打开摄像头。
 
-    <canvas id="output" style="display:none"></canvas>
+    <canvas id="output" style="width:489px;height:377px;display: none" ></canvas>
 
     <script type="text/javascript" charset="utf-8">
 
